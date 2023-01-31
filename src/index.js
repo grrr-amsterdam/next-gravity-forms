@@ -228,14 +228,12 @@ const GravityForm = (props) => {
     }
   };
 
-  console.log("fkjsdfkjsdfkjsdfkjsdfkj");
-  return <h1>HELOOOOOOOOOO</h1>;
-
   return (
     <GFWrapper
       ref={wrapperRef}
       className="form-wrapper"
       id={`gravity_form_${formID}`}
+      data-foo="HOLAAAAAAA"
     >
       {formData.title ? null : Loading && <Loading isLoading />}
 
