@@ -37,16 +37,19 @@
     "@babel/plugin-transform-runtime": "^7.12.10",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
-    "babel-preset-minify": "^0.5.1",
-    "react": "^16.13.1"
+    "babel-preset-minify": "^0.5.1"
+  },
+  "peerDependencies": {
+    "react": "^16 || ^17 || ^18"
   },
   "dependencies": {
-    "isomorphic-unfetch": "^3.0.0",
-    "react-datepicker": "^3.1.3",
-    "react-dropzone": "^11.0.2",
-    "react-input-mask": "^2.0.4",
-    "react-select": "^3.1.0",
-    "i18n-iso-countries": "^7.3.0",
-    "react-google-recaptcha": "^2.1.0"
+    "i18n-iso-countries": "^7",
+    "isomorphic-unfetch": "^3",
+    "query-string": "^7",
+    "react-datepicker": "^4",
+    "react-dropzone": "^14",
+    "react-google-recaptcha": "^2.1.0",
+    "react-input-mask": "^2",
+    "react-select": "^5"
   }
 }
