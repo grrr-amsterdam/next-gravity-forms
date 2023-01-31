@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var areEqualShallow=function(c,a){for(var b in c)if(c[b]!==a[b])return!1;return!0},_default=areEqualShallow;exports["default"]=_default;

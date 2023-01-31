@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var getPrevStep=function(a,b,c){var d=a-1,e=b[a-3]||0;return c[e]&&!0===c[e].hideField&&(d=getPrevStep(d)),d},_default=getPrevStep;exports["default"]=_default;
